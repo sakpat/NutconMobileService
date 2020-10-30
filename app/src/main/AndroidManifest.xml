@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<manifest xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    package="com.soldev.nutconmobileservice">-->
+    <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+        package="com.soldev.prod.mobileservice">
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:name="com.soldev.fieldservice.MobileServiceApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name="com.soldev.fieldservice.PrintReportActivity"></activity>
+        <activity android:name="com.soldev.fieldservice.utilities.DeviceListActivity" />
+        <activity android:name="com.soldev.fieldservice.DisplayImageActivity" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.soldev.prod.mobileservice.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <activity
+            android:name="com.soldev.fieldservice.MainActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.soldev.fieldservice.TaskFormCanvasActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soldev.fieldservice.TaskFormActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soldev.fieldservice.TaskListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.soldev.fieldservice.utilities.ActivityBarCodeScanner"
+            />
+        <service
+            android:name="com.soldev.fieldservice.Services.MessageReceiver"
+            android:enabled="true"
+            android:exported="true"/>
+    </application>
+
+</manifest>

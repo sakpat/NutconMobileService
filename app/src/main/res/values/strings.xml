@@ -1,0 +1,230 @@
+<resources>
+    <string name="app_name">Mobile Service</string>
+    <string name="label_version">App Version: </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_user_name">ชื่อผู้ใช้งาน</string>
+    <string name="label_password">รหัสผ่าน</string>
+    <string name="label_unregister">ออกจากระบบ</string>
+    <string name="label_change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="label_old_password">รหัสผ่านเดิม</string>
+    <string name="label_new_password">รหัสผ่านใหม่</string>
+    <string name="label_new_password_confirmation">ยืนยันรหัสผ่านใหม่</string>
+    <string name="label_old_password_not_correct_error">รหัสผ่านเดิมไม่ถูกต้อง</string>
+    <string name="label_old_password_eq_new_error">รหัสผ่านใหม่และรหัสผ่านเดิมจะต้องไม่เหมือนกัน</string>
+    <string name="label_new_password_confirm_error">รหัสผ่านใหม่และการยืนยันไม่ตรงกัน</string>
+    <string name="label_new_password_empty_error">รหัสผ่านใหม่ต้องยาวอย่างน้อย 4 หลัก</string>
+    <string name="error_checklist_not_complete">ข้อมูลเช็คลิส</string>
+    <string name="error_actual_area">กรุณาตรวจสอบพื้นที่จริง</string>
+    <string name="error_equipment">ข้อมูลอุปกรณ์ไม่ครบถ้วน</string>
+    <string name="error_machine">ข้อมูลเครื่องจักรไม่ครบถ้วน</string>
+    <string name="error_kilometers">ข้อมูลกิโลเริ่มต้น-สิ้นสุด</string>
+    <string name="error_employee_time">กรุณาตรวจสอบการบันทึกลงเวลา</string>
+    <string name="error_delivery">กรุณาตรวจชื่่อผู้รับงานและเบอร์ติดต่อ</string>
+    <string name="error_send_signature">"ไม่สามารถส่งงานได้ในขณะนี้ กรุณาทดลองใหม่ภายหลัง"</string>
+    <string name="error_send_picture">"ไม่สามารถส่งงานได้ในขณะนี้เนื่องจากการ server มีปัญหา กรุณาทดลองใหม่ภายหลัง"</string>
+    <string name="error_vehicle_info">ทะเบียนรถหรือหมายเลขสินทรัพย์</string>
+
+    <string name="label_task_type">ประเภท</string>
+    <string name="label_task_number">Task No.</string>
+    <string name="label_job_number">Job No.</string>
+    <string name="label_task_date">วันที่</string>
+    <string name="label_customer_name">ลูกค้า</string>
+    <string name="label_contact_name">ชื่อผู้ติดต่อ</string>
+    <string name="label_contact">เบอร์ติดต่อ</string>
+    <string name="label_sales_name">ชื่อพนักงานขาย</string>
+    <string name="label_location_detail">สถานที่</string>
+    <string name="label_gps">พิกัด</string>
+    <string name="label_item">รายการ</string>
+    <string name="label_units">จำนวน</string>
+    <string name="label_before">ก่อน</string>
+    <string name="label_between">ระหว่างทำงาน</string>
+    <string name="label_after">หลัง</string>
+    <string name="label_machine">เครื่องจักร</string>
+    <string name="label_tools">เครื่องมือ &#38; อุปกรณ์</string>
+    <string name="label_button_add">เพิ่ม</string>
+    <string name="label_machine_number">หมายเลข</string>
+    <string name="label_desc">คำอธิบาย</string>
+    <string name="label_extra_order">คำสั่งงาน</string>
+    <string name="label_project_name">โครงการ</string>
+    <string name="label_remark">หมายเหตุ</string>
+    <string name="label_admin_remark">หมายเหตุ</string>
+    <string name="label_please_remark">กรุณาใส่หมายเหตุ</string>
+    <string name="label_cancel">ยกเลิก</string>
+    <string name="label_confirm">ยืนยัน</string>
+    <string name="label_confirm_delete">กรุณายืนยันการลบข้อมูล</string>
+    <string name="label_ok">ตกลง</string>
+    <string name="label_select_image">เลือกภาพจากแกลลอรี่</string>
+    <string name="label_add_image">ถ่ายภาพ</string>
+    <string name="label_evaluation">ประเมินการทำงาน</string>
+    <string name="label_evaluation_dress">การแต่งกาย</string>
+    <string name="label_evaluation_behavior">มารยาท</string>
+    <string name="label_documnet_no">เอกสารอ้างอิง</string>
+    <string name="label_delivery_note_title">เอกสารส่งมอบงาน</string>
+    <string name="title_paired_devices">Paired Devices</string>
+    <string name="title_other_devices">Other Available Devices</string>
+    <string name="button_scan">Scan for devices</string>
+    <string name="none_paired">No devices have been paired</string>
+    <string name="scanning">scanning for devices....</string>
+    <string name="select_device">select a device to connect</string>
+    <string name="none_found">No devices found</string>
+    <string name="not_connected">You are not connected to a device</string>
+    <string name="warn_timeout">Connection is not available.\nData sending is cancelled.</string>
+    <string name="connect_fail">Unable to connect device</string>
+    <string name="connect_lost">Device connection was lost</string>
+    <string name="toast_bt_na">bluetooth is not available</string>
+    <string name="bt_not_enabled_leaving">Bluetooth was not enabled. Leaving Bluetooth print.</string>
+    <string name="label_pump_fee">ค่าบริการปั๊มคอนกรีต</string>
+    <string name="label_extra_fee">ค่าบริการพิเศษ</string>
+    <string name="label_detail_task">รายละเอียดงาน</string>
+    <string name="label_sale_cubic">จำนวน (ลบ.ม.)</string>
+    <string name="label_delivery_notice1">ขณะนี้การทำงานได้เสร็จสมบูรณ์และได้ตรวจสอบปริมาณและคุณภาพงานเป็นที่เรียบร้อยแล้ว</string>
+    <string name="label_delivery_notice2">จึงเรียนมาเพื่อทราบ</string>
+    <string name="label_delivery_nonpump_notice1">ขณะนี้การทำงานได้เสร็จสมบูรณ์และได้ตรวจสอบปริมาณและคุณภาพงานเป็นที่เรียบร้อยแล้ว</string>
+    <string name="label_delivery_nonpump_notice2">จึงเรียนมาเพื่อโปรดอนุมัติ หากงานมีข้อผิดพลาดหรือไม่เป็นไปตามมาตรฐานกรุณาแจ้ง</string>
+    <string name="label_delivery_nonpump_notice3">ภายใน 7 วันหลังจากการส่งมอบงาน หากไม่มีการแจ้งในช่วงเวลาดังกล่าวทางบริษัท</string>
+    <string name="label_delivery_nonpump_notice4">จะถือว่างานที่ส่งไปนั้นเป็นไปตามมาตรฐานที่ลูกค้ายอมรับ</string>
+
+    <string name="label_always_remember_me">จดจำฉัน</string>
+
+    <string name="label_has_signature">มีผู้รับงาน</string>
+    <string name="label_no_signature">ไม่มีผู้รับงาน</string>
+    <string name="label_customer_receiver">ผู้รับงาน</string>
+
+    <string name="label_license_plate">ทะเบียน</string>
+    <string name="label_asset_no">หมายเลขสินทรัพย์</string>
+    <string name="label_start_mileage">กิโลเริ่มต้น</string>
+    <string name="label_end_mileage">กิโลสิ้นสุด</string>
+    <string name="label_machine_checking">ตรวจสอบเครื่องจักร</string>
+    <string name="label_site_checking">ตรวจสอบสภาพแวดล้อม</string>
+    <string name="label_used_concrete">ประเภทคอนกรีต</string>
+    <string name="label_check_in">เช็คพิกัด</string>
+    <string name="label_pipe">ท่อแนวนอน (เมตร)</string>
+
+    <string name="label_used_product">ชนิดสินค้า</string>
+    <string name="label_polished_order_area">พื้นที่ตามแผน</string>
+    <string name="label_polished_order_area_short">พื้นที่ตามแผน</string>
+    <string name="label_polished_actual_area">พื้นที่จริง</string>
+    <string name="label_polished_actual_area_desc">พื้นที่งาน</string>
+    <string name="label_polished_actual_area_unit">ตารางเมตร</string>
+
+    <string name="label_customer_signature_when_checkin">ลูกค้าลงนามเมื่อเข้าปฏิบัติ</string>
+    <string name="label_signature">ลงนาม</string>
+    <string name="label_drawing">ภาพวาด</string>
+    <string name="label_pipe_drawing">ภาพท่อ</string>
+
+    <string name="label_pump_minimum">อัตราขั้นต่ำ</string>
+    <string name="label_pump_exceed">จำนวนเกินขึ้นต่ำ</string>
+    <string name="label_pump_total">จำนวนรวม</string>
+
+    <string name="label_employee">ผู้ปฏิบัติงาน</string>
+    <string name="label_employee_id">หมายเลข</string>
+    <string name="label_employee_name">ชื่อ</string>
+
+    <string name="label_retreiving_data">กำลังดึงข้อมูล</string>
+    <string name="label_total_daily_work">จำนวนงานวันนี้</string>
+
+    <string name="label_deliver_signature">ส่งงานโดย</string>
+    <string name="label_receive_signature">ตรวจสอบรับงานโดย</string>
+    <string name="label_team_behavior">มารยาททีมงาน</string>
+    <string name="label_team_quality">คุณภาพงาน</string>
+
+
+    <string name="label_satisfied">ดีมาก</string>
+    <string name="label_satisfied_some">ดี</string>
+    <string name="label_satisfied_so">พอใช้</string>
+    <string name="label_satisfied_no">ควรปรับปรุง</string>
+    <string name="label_satisfied_very_no">ไม่มีคุณภาพ</string>
+
+    <string name="label_noworkperformed">ค่าบริการพิเศษ (Service Charge)</string>
+
+    <string name="label_absent">ไม่มาปฏิบัติงาน</string>
+
+    <string name="label_cement_truck">รถปูน</string>
+    <string name="label_cement_truck_license">ทะเบียนรถ</string>
+    <string name="label_start_time">เริ่ม</string>
+    <string name="label_end_time">เสร็จสิ้น</string>
+    <string name="label_start_working_time">ถึงหน้างาน</string>
+    <string name="label_end_working_time">งานเสร็จสิ้น</string>
+    <string name="label_cement_amount">คิว</string>
+
+    <string name="keep_tapping">Keep tapping.</string>
+    <string name="done">สำเร็จ</string>
+    <string name="label_save_task">บันทึกงาน</string>
+    <string name="label_send_task">ส่งงาน</string>
+    <string name="label_confirm_send_task">กรุณายืนยันการส่งงาน เมื่อส่งงานแล้วงานจะหายไปจากรายการงานของท่าน</string>
+    <string name="label_cancel_task">ยกเลิก</string>
+    <string name="label_required">กรุณาใส่ข้อมูล</string>
+
+    <string name="label_good_signal">สัญญาณดี</string>
+    <string name="label_weak_signal">สัญญาณอ่อน</string>
+    <string name="label_no_signal">สัญญาณต่ำ</string>
+
+    <string name="error_send_pciture">"ไม่สามารถส่งรูปภาพได้ กรุณาทดลองใหม่ภายหลัง"</string>
+    <string name="error_send_firbase">"ไม่สามารถบันทึกข้อมุลลงเครื่องแม่ข่าย กรุณาทดลองใหม่ภายหลัง"</string>
+    <string name="label_cue_total_not_correct">ยอดรวมคอนกรีตไม่ถูกต้อง</string>
+
+    <string name="action_settings">ตั้งค่า</string>
+    <string name="action_erase">ลบ</string>
+    <string name="action_delete">ลบ</string>
+    <string name="action_undo">Undo</string>
+    <string name="action_save">Save</string>
+    <string name="action_color">Color Picker</string>
+    <string name="action_brush">Brush Size</string>
+    <string name="delete_drawing">ลบภาพวาด!</string>
+    <string name="new_drawing_warning">ภาพที่วาดจะถูกลบทั้งหมด โปรดยืนยัน?</string>
+    <string name="action_redo">Redo</string>
+    <string name="action_share">Share</string>
+    <string name="label_brush_size">Brush Size:</string>
+    <string name="label_save_data">บันทึกข้อมูล</string>
+    <string name="error_connection">ไม่สามารถเชื่อมต่อระบบได้เนื่องจากไม่มีสัญญาณหรือสัญญาณไม่เสถียร กรุณาลองใหม่ภายหลัง</string>
+
+    <!-- Error Lable -->
+    <string name="message_offline">ขณะนี้ไม่สามารถเชื่อมต่อ server ได้ระบบจะทำงานแบบ Offline</string>
+    <string name="message_incorrect_login">ชื่อผุ้ใช้งานหรือรหัสผ่านไม่ถูกต้องกรุณาตรวจสอบ</string>
+    <string name="message_incomplete_data">ข้อมูลไม่ครบถ้วนกรุณาตรวจสอบ</string>
+    <string name="message_complete_data">บันทึกข้อมูลเรียบร้อย</string>
+    <string name="message_update_app">แอพของท่านเป็นเวอร์ชั่นเก่ากรุณาอัพเดทเวอร์ชั่นล่าสุดจาก Play Store</string>
+
+    <string name="label_qc_type">การเข้าตรวจสอบคุณภาพ</string>
+    <string name="label_qc_time">วันที่เข้าตรวจสอบคุณภาพ</string>
+
+    <string-array name="main_activity_tab">
+        <item>Daily Task</item>
+        <item>Task History</item>
+    </string-array>
+    <string-array name="task_entry_document_tab">
+        <item>ปฏิบัติงาน</item>
+        <item>ภาพ</item>
+    </string-array>
+    <string-array name="task_qc_tab">
+        <item>ปฏิบัติงาน</item>
+        <item>ภาพ</item>
+    </string-array>
+    <string-array name="task_entry_pump_tab">
+        <item>ข้อมูลติดต่อ</item>
+        <item>อุปกรณ์</item>
+        <item>รายการตรวจสอบ</item>
+        <item>ปฏิบัติงาน</item>
+        <item>บริการพิเศษ</item>
+        <item>ลงเวลา</item>
+        <item>ภาพ</item>
+        <item>ส่งงาน</item>
+    </string-array>
+    <string-array name="task_entry_polish_tab">
+        <item>ข้อมูลติดต่อ</item>
+        <item>อุปกรณ์</item>
+        <item>รายการตรวจสอบ</item>
+        <item>ปฏิบัติงาน</item>
+        <item>ลงเวลา</item>
+        <item>ภาพ</item>
+        <item>ส่งงาน</item>
+    </string-array>
+    <string-array name="check_list_value">
+        <item>กรุณาเลือก</item>
+        <item>ผ่าน</item>
+        <item>แก้ไข</item>
+        <item>ไม่ผ่าน</item>
+    </string-array>
+</resources>

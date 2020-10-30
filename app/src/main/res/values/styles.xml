@@ -1,0 +1,30 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="CustomTitle" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_title</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorWhite</item>
+    </style>
+    <style name="CustomLabel" parent="TextAppearance.AppCompat.Title">
+        <item name="android:textSize">@dimen/text_edit_display</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="CustomEditTextDisplay" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">@dimen/text_edit_display</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="CustomSmallEditTextDisplay" parent="TextAppearance.AppCompat.Display1">
+        <item name="android:textSize">@dimen/text_edit_label</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

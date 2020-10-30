@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "332705146408",
+    "firebase_url": "https://nutconmobileservice-b035c.firebaseio.com",
+    "project_id": "nutconmobileservice-b035c",
+    "storage_bucket": "nutconmobileservice-b035c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:332705146408:android:1b57f68300153121bff71d",
+        "android_client_info": {
+          "package_name": "com.soldev.prod.fieldservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "332705146408-nemf6btberi97fc16nlt9l69uojnd370.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.soldev.prod.fieldservice",
+            "certificate_hash": "fb8dc3c7e047076387330cd678355f7e5bb55fbc"
+          }
+        },
+        {
+          "client_id": "332705146408-r65m32hem9tmag4cpn15vvgq0bqvr0pb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCeyc6Wx5q1o8kkithsdcVCGg4g9Aw_u4w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "332705146408-r65m32hem9tmag4cpn15vvgq0bqvr0pb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
